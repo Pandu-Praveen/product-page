@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" type="image/png" href="assets/Aqua Sense 2.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Aqua Sense</title>
+  </head>
+
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r128/examples/js/loaders/FBXLoader.js"></script>
+
+    <nav>
+      <ul class="nav__links">
+        <li class="link">
+          <img src="assets/Aqua Sense 2.jpg" alt="" style="width: 62px" />
+        </li>
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#trending">About</a></li>
+
+        <li class="link"><a href="#events">Events</a></li>
+
+        <li class="link"><a href="#footer">Contact Us</a></li>
+        <li class="link"></li>
+      </ul>
+    </nav>
+
+    <header class="header1">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="list">
+            <div class="item">
+              <div class="slide-content">
+                <img src="assets/IMG-20240620-WA0025.jpg" alt="" />
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-content">
+                <img src="assets/AQUASENSE PAMPHLET_page-0001.jpg" alt="" />
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-content">
+                <img src="assets/AQUASENSE PAMPHLET_page-0002.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="buttons">
+        <img id="prev" src="assets/left-arrow.png" alt="Previous" />
+        <img id="next" src="assets/right-arrow.png" alt="Next" />
+      </div>
+    </header>
+
+    <section class="section__container trending__container" id="trending">
+      <div class="section__header">
+        <h2 class="section__title">About</h2>
+        <!-- <div class="section__nav">
+          <span><i class="ri-arrow-left-s-line"></i></span>
+          <span><i class="ri-arrow-right-s-line"></i></span>
+        </div> -->
+      </div>
+      <div class="trending__grid">
+        <div class="trending__card">
+          <div class="trending__content">
+            <h1>Vision</h1>
+            <p>
+              To empower a sustainable aquaculture industry through innovation,
+              safeguarding water quality and supporting ecosystem health for
+              future generations.
+            </p>
+          </div>
+        </div>
+        <div class="trending__card">
+          <div class="trending__content">
+            <h1>Mission</h1>
+            <p>
+              Aquasense is dedicated to advancing aquaculture through
+              intelligent water monitoring solutions. We aim to simplify and
+              automate water quality management, enabling aquaculture farms to
+              increase yield responsibly while minimizing environmental impact.
+              By harnessing technology, we provide essential tools for a
+              thriving and eco-friendly industry.
+            </p>
+            <div class="trending__details">
+              <div class="trending__ratings"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" style="background-color: rgb(228, 228, 228)">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5>Details</h5>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-mail-fill"></i></a>
+            </span>
+            <a href="https://sairamgroup.in/"><p>sairamgroup.in</p></a>
+          </div>
+          <br />
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-school-line"></i></a>
+            </span>
+            <p>SRI SAIRAM INSTITUTIONS, Chennai,TamilNadu.</p>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#trending">About</a>
+
+          <a href="#events">Events</a>
+          <a href="#events">Contact Us</a>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </span>
+            <!-- <span>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </span> -->
+            <span>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </span>
+          </div>
+        </div>
+        <!-- Include the map here -->
+      </div>
+      <div class="footer__bar">
+        <span> Proudly Designed and developed by</span>
+        <a href="#" style="font-weight: bold">Aqua Sense </a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
